@@ -61,6 +61,22 @@ class UsersController < ApplicationController
     end
   end
 
+  def admin_home
+
+  end
+
+  def admin_users
+    @users=User.all
+  end
+
+  def admin_products
+    @products=Product.all
+  end
+
+  def admin_user_products
+
+  end
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_user
