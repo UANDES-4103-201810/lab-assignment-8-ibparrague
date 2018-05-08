@@ -62,7 +62,6 @@ class UsersController < ApplicationController
   end
 
   def admin_home
-
   end
 
   def admin_users
@@ -74,7 +73,6 @@ class UsersController < ApplicationController
   end
 
   def admin_user_products
-
   end
 
   private
